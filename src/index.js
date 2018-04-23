@@ -42,18 +42,73 @@ class Product extends React.Component {
     render(){
         return (
             <div className="part1">
-                <h2 className="we">我们的产品优势</h2>
-
-                <div>
+                <div className="p-h">
+                    <h2 className="we">我们的产品优势</h2>
+                </div>
+           
+                <div className="content">
                     <div>
-                        <img src="https://d5bygqdtbohob.cloudfront.net/wp-content/themes/vwo/images/home/process-driven-optimization.svg" alt="Optimization Process - VWO" />
+                        <div>
+                            <img src="https://d5bygqdtbohob.cloudfront.net/wp-content/themes/vwo/images/home/process-driven-optimization.svg" alt="Optimization Process - VWO" />
+                        </div>
+                        <div>
+                            <h3>场外交易</h3>
+                            <p>拥有全球最极速便捷的交易流程体验</p>
+                            <p>功能全面，自由配置认证商家，自由配置交易币种，买卖自由</p>
+                        </div>
                     </div>
                     <div>
-                        <h3>场外交易</h3>
-                        <p>拥有全球最极速便捷的交易流程体验</p>
-                        <p>功能全面，自由配置认证商家，自由配置交易币种，买卖自由</p>
+                        <div>
+                            <img src="https://d5bygqdtbohob.cloudfront.net/wp-content/themes/vwo/images/home/process-driven-optimization.svg" alt="Optimization Process - VWO" />
+                        </div>
+                        <div>
+                            <h3>现货交易</h3>
+                            <p>拥有全球最极速便捷的交易流程体验</p>
+                            <p>功能全面，自由配置认证商家，自由配置交易币种，买卖自由</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="https://d5bygqdtbohob.cloudfront.net/wp-content/themes/vwo/images/home/process-driven-optimization.svg" alt="Optimization Process - VWO" />
+                        </div>
+                        <div>
+                            <h3>保证金交易</h3>
+                            <p>拥有全球最极速便捷的交易流程体验</p>
+                            <p>功能全面，自由配置认证商家，自由配置交易币种，买卖自由</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="https://d5bygqdtbohob.cloudfront.net/wp-content/themes/vwo/images/home/process-driven-optimization.svg" alt="Optimization Process - VWO" />
+                        </div>
+                        <div>
+                            <h3>场外交易</h3>
+                            <p>拥有全球最极速便捷的交易流程体验</p>
+                            <p>功能全面，自由配置认证商家，自由配置交易币种，买卖自由</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="https://d5bygqdtbohob.cloudfront.net/wp-content/themes/vwo/images/home/process-driven-optimization.svg" alt="Optimization Process - VWO" />
+                        </div>
+                        <div>
+                            <h3>现货交易</h3>
+                            <p>拥有全球最极速便捷的交易流程体验</p>
+                            <p>功能全面，自由配置认证商家，自由配置交易币种，买卖自由</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="https://d5bygqdtbohob.cloudfront.net/wp-content/themes/vwo/images/home/process-driven-optimization.svg" alt="Optimization Process - VWO" />
+                        </div>
+                        <div>
+                            <h3>保证金交易</h3>
+                            <p>拥有全球最极速便捷的交易流程体验</p>
+                            <p>功能全面，自由配置认证商家，自由配置交易币种，买卖自由</p>
+                        </div>
                     </div>
                 </div>
+
             </div>
         )
     }
