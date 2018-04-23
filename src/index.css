@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Fira Sans',sans-serif;
+}
+
+.app {
+    width: 100%;
+}
+
+.header {
+    background-image: linear-gradient( -228deg, #000 0%, #000711 21%, #002454 100% );
+    font-family: 'Open Sans','Fira Sans',sans-serif;
+    background-color: #191b20;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: 550px;
+    position: relative;
+    overflow: hidden;
+}
+
+.header:after {
+    content: '';
+    background-image: url('https://d5bygqdtbohob.cloudfront.net/wp-content/themes/vwo/images/home-bg-dots.svg');
+    height: 550px;
+    width: 100%;
+    position: absolute;
+}
+
+.top {
+    position: sticky;
+    top: 24px;
+}
+
+a {
+    margin-left: 100px;
+}
+
+/* .img1 {
+    width: 150px;
+    height: 100px;
+    object-fit: scale-down;
+} */
+
+.tabs {
+    display: inline-block;
+    margin-left: 900px;
+}
+
+span {
+    display: inline-block;
+    width: 180px;
+    height: 100px;
+}
+
+.img2 {
+    width: 500px;
+    height: 200px;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 2.5em;
+    line-height: 1.45;
+}
+
+p {
+    opacity: 0.8;
+}
+
+.part1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.we {
+    font-family: 'Open Sans','Fira Sans',sans-serif;
+    font-size: 1.75rem;
+    font-weight: 300;
+    margin: 0 0 0.8rem;
+    color: #2b3945;
+}
