@@ -1,32 +1,14 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Fira Sans',sans-serif;
-}
-
-.app {
-    width: 100%;
+    font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Roboto,Arial,PingFang SC,Hiragino Sans GB,Microsoft Yahei,Microsoft Jhenghei,sans-serif;;
 }
 
 .header {
-    background-image: linear-gradient( -228deg, #000 0%, #000711 21%, #002454 100% );
-    font-family: 'Open Sans','Fira Sans',sans-serif;
-    background-color: #191b20;
+    background-image:url('./img/header_img.png') ;
     background-size: cover;
-    background-repeat: no-repeat;
     color: white;
     height: 550px;
     position: relative;
     overflow: hidden;
-}
-
-.header:after {
-    content: '';
-    background-image: url('https://d5bygqdtbohob.cloudfront.net/wp-content/themes/vwo/images/home-bg-dots.svg');
-    height: 550px;
-    width: 100%;
-    position: absolute;
 }
 
 .top {
@@ -35,14 +17,8 @@ body {
 }
 
 a {
-    margin-left: 200px;
+    margin-left: 443px;
 }
-
-/* .img1 {
-    width: 150px;
-    height: 100px;
-    object-fit: scale-down;
-} */
 
 .tabs {
     display: inline-block;
@@ -61,17 +37,20 @@ span {
 }
 
 .banner {
-    margin-left: 200px;
+    margin-left: 364px;
     margin-top: 100px;
 }
 
 h1 {
     font-size: 2.5em;
     line-height: 1.45;
+    font-size: 44px;
 }
 
-p {
+.t2 {
     opacity: 0.8;
+    letter-spacing: 26px;
+    font-size: 24px;
 }
 
 .p-h {
@@ -81,7 +60,6 @@ p {
 }
 
 .we {
-    font-family: 'Open Sans','Fira Sans',sans-serif;
     font-size: 1.75rem;
     font-weight: bold;
     margin: 0 0 0.8rem;
@@ -89,11 +67,14 @@ p {
     margin: 50px 0 50px 0;
 }
 
-.content {
-    display: flex;
-    flex-direction: column;
-    width: 1210px;
-    margin: 30px 500px;
+.part1 {
+    width: 1200px;
+    margin: 0px 305px;
+    position: absolute;
+    top: 491px;
+    z-index: 10;
+    background: white;
+    padding: 0 64px;
 }
 
 .c1,.c2 {
@@ -102,9 +83,13 @@ p {
 }
 
 h3 {
-    font-size: 1.25rem;
+    font-size: 24px;
     line-height: 1.2;
     color: #2b3945;
+}
+
+.t1{
+    font-size: 14px;
 }
 
 .block {
@@ -115,7 +100,36 @@ h3 {
     margin: 10px 0 20px -3px;
 }
 
-.common-BodyText {
+.part2 {
+    position: absolute;
+    top: 1000px;
+    background-color: lightblue;
+    margin:0px 305px;
+    width: 1200px;
+    padding: 0 64px;
+}
+
+
+.left2 {
+    display: inline-block;
+    width: 600px;
+    font-size: 36px;
+    font-weight: 600;
+    position: relative;
+}
+
+.m {
+    position: absolute;
+    top: -180px;
+}
+
+.right2 {
+    display: inline-block;
+    /* width: 400px; */
+    list-style: none;
+}
+
+/* .common-BodyText {
     font-weight: 400;
     font-size: 17px;
     line-height: 28px;
@@ -132,4 +146,5 @@ ul {
 li {
     list-style: none;
     width: 360px;
-}
+} */
+
