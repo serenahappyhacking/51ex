@@ -35,7 +35,7 @@ body {
 }
 
 a {
-    margin-left: 100px;
+    margin-left: 200px;
 }
 
 /* .img1 {
@@ -46,12 +46,12 @@ a {
 
 .tabs {
     display: inline-block;
-    margin-left: 900px;
+    margin-left: 100px;
 }
 
 span {
     display: inline-block;
-    width: 180px;
+    width: 150px;
     height: 100px;
 }
 
@@ -61,10 +61,8 @@ span {
 }
 
 .banner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    margin-left: 200px;
+    margin-top: 100px;
 }
 
 h1 {
@@ -93,5 +91,45 @@ p {
 
 .content {
     display: flex;
+    flex-direction: column;
+    width: 1210px;
+    margin: 30px 500px;
+}
+
+.c1,.c2 {
+    display: flex;
     justify-content: space-between;
+}
+
+h3 {
+    font-size: 1.25rem;
+    line-height: 1.2;
+    color: #2b3945;
+}
+
+.block {
+    width: 360px;
+}
+
+.icon {
+    margin: 10px 0 20px -3px;
+}
+
+.common-BodyText {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    color: #525f7f;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    width: 1210px; 
+    margin: 30px 450px;  
+}
+
+li {
+    list-style: none;
+    width: 360px;
 }

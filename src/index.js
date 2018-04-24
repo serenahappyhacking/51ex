@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import logo from './img/1.jpg';
+import logo from './img/reliability.svg';
 
 class Header extends React.Component {
     render(){
@@ -23,7 +23,6 @@ class Header extends React.Component {
                         </svg>
 		  	        </a>
                     <div className="tabs">
-                        <span>首页</span>
                         <span>产品介绍</span>
                         <span>服务</span>
                         <span>关于我们</span>
@@ -31,7 +30,7 @@ class Header extends React.Component {
                 </div>
                 <div className="banner">
                     <h1>数字资产交易专业解决方案</h1>
-                    <p>场外、币币交易、合约期货全支持，轻松构建您自己的交易所</p>
+                    <p>轻松构建您自己的交易所</p>
                 </div>
             </div>
         );
@@ -47,68 +46,71 @@ class Product extends React.Component {
                 </div>
            
                 <div className="content">
-                    <div>
-                        <div>
-                            <img src="https://d5bygqdtbohob.cloudfront.net/wp-content/themes/vwo/images/home/process-driven-optimization.svg" alt="Optimization Process - VWO" />
+                    <div className="c1">
+                        <div className="block">
+                            <div>
+                                <img src="https://d5bygqdtbohob.cloudfront.net/wp-content/themes/vwo/images/home/process-driven-optimization.svg" alt="Optimization Process - VWO" />
+                            </div>
+                            <div>
+                                <h3>场外交易</h3>
+                                <p>拥有全球最极速便捷的交易流程体验</p>
+                                <p>功能全面，自由配置认证商家，自由配置交易币种，买卖自由</p>
+                            </div>
                         </div>
-                        <div>
-                            <h3>场外交易</h3>
-                            <p>拥有全球最极速便捷的交易流程体验</p>
-                            <p>功能全面，自由配置认证商家，自由配置交易币种，买卖自由</p>
+                        <div className="block">
+                            <div>
+                                <img src="https://d5bygqdtbohob.cloudfront.net/wp-content/themes/vwo/images/home/process-driven-optimization.svg" alt="Optimization Process - VWO" />
+                            </div>
+                            <div>
+                                <h3>现货交易</h3>
+                                <p>基于多层分布式体系的内存撮合机制，具有超高的交易处理能力</p>
+                                <p>支撑功能完善，自由设置数字资产模板，上下币极速</p>
+                            </div>
                         </div>
-                    </div>
-                    <div>
-                        <div>
-                            <img src="https://d5bygqdtbohob.cloudfront.net/wp-content/themes/vwo/images/home/process-driven-optimization.svg" alt="Optimization Process - VWO" />
-                        </div>
-                        <div>
-                            <h3>现货交易</h3>
-                            <p>拥有全球最极速便捷的交易流程体验</p>
-                            <p>功能全面，自由配置认证商家，自由配置交易币种，买卖自由</p>
-                        </div>
-                    </div>
-                    <div>
-                        <div>
-                            <img src="https://d5bygqdtbohob.cloudfront.net/wp-content/themes/vwo/images/home/process-driven-optimization.svg" alt="Optimization Process - VWO" />
-                        </div>
-                        <div>
-                            <h3>保证金交易</h3>
-                            <p>拥有全球最极速便捷的交易流程体验</p>
-                            <p>功能全面，自由配置认证商家，自由配置交易币种，买卖自由</p>
-                        </div>
-                    </div>
-                    <div>
-                        <div>
-                            <img src="https://d5bygqdtbohob.cloudfront.net/wp-content/themes/vwo/images/home/process-driven-optimization.svg" alt="Optimization Process - VWO" />
-                        </div>
-                        <div>
-                            <h3>场外交易</h3>
-                            <p>拥有全球最极速便捷的交易流程体验</p>
-                            <p>功能全面，自由配置认证商家，自由配置交易币种，买卖自由</p>
+                        <div className="block">
+                            <div>
+                                <img src="https://d5bygqdtbohob.cloudfront.net/wp-content/themes/vwo/images/home/process-driven-optimization.svg" alt="Optimization Process - VWO" />
+                            </div>
+                            <div>
+                                <h3>保证金交易</h3>
+                                <p>通过分仓机制严格控制投资者的爆仓风险</p>
+                                <p>灵活交易，可融资，可融币</p>
+                            </div>
                         </div>
                     </div>
-                    <div>
-                        <div>
-                            <img src="https://d5bygqdtbohob.cloudfront.net/wp-content/themes/vwo/images/home/process-driven-optimization.svg" alt="Optimization Process - VWO" />
+                    <div className="c2">
+                        <div className="block">
+                            <div>
+                                <img src="https://d5bygqdtbohob.cloudfront.net/wp-content/themes/vwo/images/home/process-driven-optimization.svg" alt="Optimization Process - VWO" />
+                            </div>
+                            <div>
+                                <h3>标准化远期合约</h3>
+                                <p>拥有自动化风控系统，有效抵制重大系统性风险</p>
+                                <p>动态杠杆，币种丰富</p>
+                            </div>
                         </div>
-                        <div>
-                            <h3>现货交易</h3>
-                            <p>拥有全球最极速便捷的交易流程体验</p>
-                            <p>功能全面，自由配置认证商家，自由配置交易币种，买卖自由</p>
+                        <div className="block">
+                            <div>
+                                <img src="https://d5bygqdtbohob.cloudfront.net/wp-content/themes/vwo/images/home/process-driven-optimization.svg" alt="Optimization Process - VWO" />
+                            </div>
+                            <div>
+                                <h3>基金理财</h3>
+                                <p>灵活的投票机制，公平决定发行的基金</p>
+                                <p>精选的数字资产加入基金，最大限度降低投资风险，稳定收入</p>
+                            </div>
                         </div>
-                    </div>
-                    <div>
-                        <div>
-                            <img src="https://d5bygqdtbohob.cloudfront.net/wp-content/themes/vwo/images/home/process-driven-optimization.svg" alt="Optimization Process - VWO" />
-                        </div>
-                        <div>
-                            <h3>保证金交易</h3>
-                            <p>拥有全球最极速便捷的交易流程体验</p>
-                            <p>功能全面，自由配置认证商家，自由配置交易币种，买卖自由</p>
+                        <div className="block">
+                            <div>
+                                <img src="https://d5bygqdtbohob.cloudfront.net/wp-content/themes/vwo/images/home/process-driven-optimization.svg" alt="Optimization Process - VWO" />
+                            </div>
+                            <div>
+                                <h3>钱包产品</h3>
+                                <p>采用冷钱包、私钥离线化的热钱包等先进的技术保证安全</p>
+                                <p>丰富的第三方工具接入，发现更有趣的产品</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-
             </div>
         )
     }
@@ -117,7 +119,28 @@ class Product extends React.Component {
 class Service extends React.Component {
     render(){
         return (
-            <div>多种部署模式快速输出</div>
+            <div className="part2">
+                <div className="p-h">
+                    <h2 className="we">多种部署模式快速输出</h2>
+                </div>
+                <ul>
+                    <li>
+                        <img class="icon" src={logo} width="50px" />
+                        <h3 class="common-BodyTitle">公有云</h3>
+                        <p class="common-BodyText">提供高级功能和免费基础功能，自助开通，即注册即用，接入成本低，集成快</p>
+                    </li>
+                    <li>
+                        <img class="icon" src={logo} width="50px" />
+                        <h3 class="common-BodyTitle">私有云</h3>
+                        <p class="common-BodyText">服务集群部署在私有基础设施上，安全指数高，数据可控，资源规模自主调配</p>
+                    </li>
+                    <li>
+                        <img class="icon" src={logo} width="50px" />
+                        <h3 class="common-BodyTitle">专有云</h3>
+                        <p class="common-BodyText">独立部署的服务集群，资源隔离，更高性能和可靠性，专人维护和监控，业务参数可定制调整</p>
+                    </li>
+                </ul>
+            </div>
         )
     }
 }
@@ -125,7 +148,11 @@ class Service extends React.Component {
 class AboutUs extends React.Component {
     render(){
         return (
-            <div>为什么选择 51EX</div>
+            <div className="part3">
+                <div className="p-h">
+                    <h2 className="we">全平台客户端接入，支持全业务</h2>
+                </div>
+            </div>
         )
     }
 }
