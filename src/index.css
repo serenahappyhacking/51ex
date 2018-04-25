@@ -159,7 +159,6 @@ body {
 .service--section .logo {
     width: 40px;
     height: 40px;
-    /* background-color: #749DE8; */
     float: left;
 }
 
@@ -301,4 +300,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.y{
+    padding-left: 70px;
 }
