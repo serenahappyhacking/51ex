@@ -110,7 +110,8 @@ body {
     flex-grow: 1;
     display: flex;
     align-items: center;
-    padding-left: 50px;
+    padding-left: 74px;
+    background-image: url('./img/Group.svg');
 }
 
 .service--section h3 {
@@ -174,9 +175,130 @@ body {
     box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
     position: relative;
     bottom: -120px;
+    display: flex;
+    flex-direction: column;
 }
 
 .aboutus {
     height: 640px;
     background-color: #041B3F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ad1 {
+    width: 600px;
+    margin: 0px 83px;
+    margin-top: 30px;
+}
+
+.ad1 h1 {
+    font-size: 36px;
+    color:#FFFFFF;
+    font-weight: 500;
+}
+
+.ad1 p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.76);
+}
+
+.ad2 {
+    display: flex;
+    color: white;
+    width: 900px;
+    margin: 30px 83px;
+    padding-top: 40px;
+    border-top: 1px solid #ffffff5c;
+}
+
+.ad2-1 {
+    padding-right: 40px;
+}
+
+.ad2-2 {
+    font-size: 24px;
+}
+
+.ad2-3 {
+    color: #ffffffbd;
+    font-size: 14px;
+}
+
+.aboutus {
+    color: white;
+}
+
+.aboutus .left {
+    width: 600px;
+    padding-left: 130px;
+}
+
+.aboutus .left h3 {
+    color:rgba(255,255,255,1);
+    font-size: 30px;
+}
+
+.aboutus .left button{
+    width:144px;
+    height:44px; 
+    background:linear-gradient(174.6deg,rgba(87,134,222,1),rgba(23,65,143,1));
+    border-radius: 4px; 
+    font-size:16px;
+    color:rgba(255,255,255,1);
+    line-height:24px;
+    border: none;
+}
+
+.aboutus .left button:hover {
+    cursor: pointer;
+}
+
+.aboutus .right {
+
+}
+
+.r1 {
+    display: inline-block;
+    padding: 60px;
+    width: 350px;
+    font-size:16px;
+    color:rgba(255,255,255,0.85);
+    line-height:22px;
+}
+
+.r2 {
+    border-right: 1px solid #ffffff14;
+}
+
+.r3 {
+    border-bottom: 1px solid #ffffff14;
+    border-right: 1px solid #ffffff14;
+}
+
+.r4 {
+    border-bottom: 1px solid #ffffff14;
+}
+
+.sup {
+    color: #5584DC;
+    font-size: 16px;
+}
+
+.num {
+    font-size: 71px;
+    color:rgba(255,255,255,0.29);
+    line-height:54px;
+    padding-right: 30px;
+}
+
+.x {
+    display: inline-block;
+}
+
+.navbar--logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
