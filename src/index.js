@@ -81,7 +81,7 @@ class Product extends React.Component {
                     <div className="product--block">
                         <div>
                             <h3>钱包产品</h3>
-                            <p>采用冷钱包、私钥离线化的热钱包等先进的技术保证安全，丰富的第三方工具接入，发现更有趣的产品</p>
+                            <p>利用分层来高效的管理和生成私钥, 离线签名保证钱包的安全, 高效和安全尽在掌控之中</p>
                         </div>
                     </div>
                 </div>
@@ -95,34 +95,34 @@ class Service extends React.Component {
         return (
             <div className="service" id="service">
                 <div className="service--section">
-                    <div className="left">
-                        <h3>多种部署模式快速输出</h3>
+                    <div className="left a1">
+                        <h3>Devops部署方案</h3>
                     </div>
                     <div className="right">
                         <div className="items">
                             <div className="item">
-                                <div className="label">公有云</div>
+                                <div className="label">安全</div>
                                 <div className="description">
-                                    <p>提供高级功能和免费基础功能<br/>自助开通，即注册即用<br/>用接入成本低，集成快</p>
+                                    <p>安全的运维解决方案</p>
                                 </div>
                             </div>
                             <div className="item">
-                                <div className="label">专有云</div>
+                                <div className="label">高效</div>
                                 <div className="description">
-                                    <p>独立部署的服务集群<br/>资源隔离，更高性能和可靠性<br/>专人维护和监控，业务参数可定制调整</p>
+                                    <p>高效的devops运维平台</p>
                                 </div>
                             </div>
                             <div className="item">
-                                <div className="label">私有云</div>
+                                <div className="label">无缝</div>
                                 <div className="description">
-                                    <p>服务集群部署在私有基础设施上<br />安全指数高，数据可控<br/>资源规模自主调配</p>
+                                    <p>无缝对接主流云平台阿里云和AWS</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="service--section">
-                    <div className="left">
+                    <div className="left a2">
                         <h3>全平台客户端接入<br/>支持全业务</h3>
                     </div>
                     <div className="right">
@@ -208,21 +208,19 @@ class AboutUs extends React.Component {
             <div className="aboutus" id="aboutus">
                 <div className="left">
                     <h3>联系我们，洽谈合作</h3>
-                    <button>马上联络</button>
+                    <p className="sup">support@51ex.com</p>
                 </div>
                 <div className="right">
                    <div className="r1 r3">
                         <span className="num">1</span>
                         <div className="x">
                             <p>说出您的合作意向</p>
-                            <p className="sup">support@51ex.com</p>
                         </div>
                    </div>
                    <div className="r1 r4">
                         <span className="num">2</span>
                         <div className="x y">
-                            <p>根据您的需求</p>
-                            <p>评估产品方案</p>
+                            <p>根据您的需求<br/>评估产品方案</p>
                         </div>
                    </div>
                    <br/>

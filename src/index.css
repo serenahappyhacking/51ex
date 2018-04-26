@@ -112,7 +112,16 @@ body {
     display: flex;
     align-items: center;
     padding-left: 74px;
+}
+
+.a1 {
     background-image: url('./img/Group.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.a2 {
+    background-image: url('./img/Group 3.svg');
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -206,13 +215,13 @@ body {
 .ad2 {
     display: flex;
     color: white;
-    width: 900px;
     margin: 30px 83px;
     padding-top: 40px;
     border-top: 1px solid #ffffff5c;
 }
 
 .ad2-1 {
+    width: 320px;
     padding-right: 40px;
 }
 
