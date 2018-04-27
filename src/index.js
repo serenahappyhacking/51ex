@@ -208,35 +208,53 @@ class AboutUs extends React.Component {
             <div className="aboutus" id="aboutus">
                 <div className="left">
                     <h3>联系我们，洽谈合作</h3>
-                    <p className="sup">support@51ex.com</p>
+                    <p className="sup">support@51ex.pro</p>
                 </div>
                 <div className="right">
-                   <div className="r1 r3">
-                        <span className="num">1</span>
-                        <div className="x">
-                            <p>说出您的合作意向</p>
-                        </div>
-                   </div>
-                   <div className="r1 r4">
-                        <span className="num">2</span>
-                        <div className="x y">
-                            <p>根据您的需求<br/>评估产品方案</p>
-                        </div>
-                   </div>
-                   <br/>
-                   <div className="r1 r2">
-                        <span className="num">3</span>
-                        <div className="x">
-                            洽谈合作<br/>签订合同
-                        </div>
-                   </div>
-                   <div className="r1">
-                        <span className="num">4</span>
-                        <div className="x">
-                            部署产品，请您验收<br/>培训到您会使用为止
-                        </div>
-                   </div>
+                    <div className="r1 r3">
+                            <span className="num">1</span>
+                            <div className="x">
+                                <p>说出您的合作意向</p>
+                            </div>
+                    </div>
+                    <div className="r1 r4">
+                            <span className="num">2</span>
+                            <div className="x y">
+                                <p>根据您的需求<br/>评估产品方案</p>
+                            </div>
+                    </div>
+                    <br/>
+                    <div className="r1 r2">
+                            <span className="num">3</span>
+                            <div className="x">
+                                洽谈合作<br/>签订合同
+                            </div>
+                    </div>
+                    <div className="r1">
+                            <span className="num">4</span>
+                            <div className="x">
+                                部署产品，请您验收<br/>培训到您会使用为止
+                            </div>
+                    </div>
                 </div>
+                
+            </div>
+        )
+    }
+}
+
+class Footer extends React.Component {
+    render() {
+        return (
+            <div className="footer">
+                <div className="y1"></div>
+                <div>
+                    <span>商务合作：18210521312</span>
+                    <span className="ts">技术支持：support@51ex.pro</span>
+                    <span>公司地址：北京市望京SOHO</span>
+                </div>
+                <div>2017-2018 51ex.com 北京智链科技有限责任公司 版权所有 | 京ICP备18027346号-1</div>
+                <div className="y2"></div>
             </div>
         )
     }
@@ -251,6 +269,7 @@ class App extends React.Component {
                 <Service />
                 <Advantage />
                 <AboutUs />
+                <Footer />
             </React.Fragment>
         );
     }

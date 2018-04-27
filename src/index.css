@@ -182,13 +182,13 @@ body {
     background-color: #5786DE;
     box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
     position: relative;
-    bottom: -120px;
+    bottom: -78px;
     display: flex;
     flex-direction: column;
 }
 
 .aboutus {
-    height: 640px;
+    height: 540px;
     background-color: #041B3F;
     display: flex;
     align-items: center;
@@ -222,7 +222,6 @@ body {
 
 .ad2-1 {
     width: 320px;
-    padding-right: 40px;
 }
 
 .ad2-2 {
@@ -239,7 +238,7 @@ body {
 }
 
 .aboutus .left {
-    width: 600px;
+    width: 560px;
     padding-left: 130px;
 }
 
@@ -263,7 +262,29 @@ body {
     cursor: pointer;
 }
 
-.aboutus .right {}
+.footer {
+    background-color: #041B3F;
+    color: #ffffffbf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.y1 {
+    width: 1200px;
+    height: 20px;
+    border-top: 1px solid #ffffff14; 
+}
+
+.y2 {
+    height: 20px;
+    width: 1200px;
+}
+
+.ts {
+    padding: 0 18px;
+}
 
 .r1 {
     display: inline-block;
@@ -293,7 +314,7 @@ body {
 }
 
 .num {
-    font-size: 71px;
+    font-size: 50px;
     color: rgba(255, 255, 255, 0.29);
     line-height: 54px;
     padding-right: 30px;
