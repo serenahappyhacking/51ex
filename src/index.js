@@ -181,7 +181,7 @@ class Advantage extends React.Component {
             <div className="advantage">
                 <div className="ad1">
                     <h1>为什么选择 51EX</h1>
-                    <p>采用HTML5、SSL技术打造流畅的WEB端交易平台，同时专注塑造全平台交易系统，覆盖iOS、Android、Windows、Mac多个平台，具有全业务、全平台交付能力，选择您想要的模板和皮肤。</p>
+                    <p>采用HTML5、SSL技术打造流畅的Web端交易平台，专注塑造全平台交易系统，覆盖iOS、Android、Windows、Mac 多个平台，具有全业务、全平台交付能力，选择您想要的模板和皮肤。</p>
                 </div>
                 <div className="ad2">
                     <div className="ad2-1">
@@ -208,7 +208,7 @@ class AboutUs extends React.Component {
             <div className="aboutus" id="aboutus">
                 <div className="left">
                     <h3>联系我们，洽谈合作</h3>
-                    <p className="sup">support@51ex.pro</p>
+                    <p className="sup">小宇：15600052862</p>
                 </div>
                 <div className="right">
                     <div className="r1 r3">
@@ -249,11 +249,11 @@ class Footer extends React.Component {
             <div className="footer">
                 <div className="y1"></div>
                 <div>
-                    <span>商务合作：18210521312</span>
+                    <span>商务合作：bd@51ex.com</span>
                     <span className="ts">技术支持：support@51ex.pro</span>
                     <span>公司地址：北京市望京SOHO</span>
                 </div>
-                <div>2017-2018 51ex.com 北京智链科技有限责任公司 版权所有 | 京ICP备18027346号-1</div>
+                <div>2017-2018 51ex.pro 北京智链科技有限责任公司 版权所有</div>
                 <div className="y2"></div>
             </div>
         )
