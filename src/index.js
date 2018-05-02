@@ -32,6 +32,17 @@ class Header extends React.Component {
                     <a href="#service" className="navbar--menu">服务</a>
                     <a href="#aboutus" className="navbar--menu">关于我们</a>
                 </div>
+                <div className="hd-lan">
+				    <i className="selected icon-lan lan-zh"></i>
+                    <ul className="lan-list">
+                        <li data="zh">中文
+                            <i className="icon-lan lan-zh"></i>
+                        </li>
+                        <li data="en">English
+                            <i className="icon-lan lan-en"></i>
+                        </li>
+                    </ul>
+                </div>
                 <div className="banner">
                     <div className="banner--title">数字资产交易专业解决方案</div>
                     <div className="banner--subtitle">轻松构建您自己的交易所</div>
