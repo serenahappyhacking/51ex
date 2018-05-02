@@ -1,3 +1,8 @@
+
+@media screen and (min-width: 900px) {
+   
+}
+
 * {
     box-sizing: border-box;
 }
@@ -7,65 +12,69 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+:root {
+    font-size: 12px;
+}
+
 .header {
     background-image: url('./img/header_img.png');
     background-size: cover;
     color: white;
-    height: 500px;
+    height: 41.7rem;
 }
 
 .navbar {
-    width: 1440px;
+    width: 75%;
     margin: 0 auto;
-    padding: 0 120px;
-    height: 60px;
+    padding: 0 10rem;
+    height: 5rem;
     display: flex;
     align-items: center;
 }
 
 .navbar--logo {
     background-color: #5786DE;
-    width: 107px;
-    height: 60px;
+    width: 8.92rem;
+    height: 5rem;
 }
 
 .navbar--menu {
-    font-size: 16px;
-    margin-left: 42px;
+    font-size: 1.33rem;
+    margin-left: 3.5rem;
     text-decoration: none;
     color: white;
 }
 
 .banner {
-    width: 1440px;
+    width: 75%;
     margin: 0 auto;
-    padding-left: 156px;
-    margin-top: 138px;
+    padding-left: 13rem;
+    margin-top: 11.5rem;
 }
 
 .banner--title {
-    font-size: 44px;
+    font-size: 3.67rem;
 }
 
 .banner--subtitle {
-    font-size: 24px;
-    letter-spacing: 26px;
-    margin-top: 8px;
+    font-size: 2rem;
+    letter-spacing: 2.17rem;
+    margin-top: 0.67rem;
     opacity: 0.8;
 }
 
 .product {
-    width: 1200px;
+    width: 62.5%;
     margin: 0 auto;
     background-color: #F4F4F4;
     box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
     position: relative;
-    top: -60px;
+    top: -5rem;
 }
 
 .product--row {
     display: flex;
-    height: 230px;
+    height: 19.2rem;
 }
 
 .product--block {
@@ -77,28 +86,28 @@ body {
 }
 
 .product--block>div {
-    height: 175px;
+    height: 14.58rem;
 }
 
 .product--block h3 {
-    font-size: 24px;
+    font-size: 2rem;
 }
 
 .product--block p {
-    font-size: 14px;
-    width: 224px;
+    font-size: 1.17rem;
+    width: 18.67rem;
     color: rgba(0, 0, 0, 0.5);
 }
 
 .service {
-    width: 1440px;
+    width: 75%;
     margin: 0 auto;
-    padding: 0 120px;
+    padding: 0 10rem;
 }
 
 .service--section {
     display: flex;
-    height: 480px;
+    height: 33rem;
     align-items: center;
 }
 
@@ -111,7 +120,7 @@ body {
     height: 100%;
     display: flex;
     align-items: center;
-    padding-left: 74px;
+    /* padding-left: 6.17rem; */
 }
 
 .a1 {
@@ -127,14 +136,14 @@ body {
 }
 
 .service--section h3 {
-    font-size: 36px;
+    font-size: 3rem;
 }
 
 .service--section .item {
     display: flex;
     align-items: center;
-    width: 424px;
-    height: 128px;
+    width: 35.33rem;
+    height: 10.67rem;
 }
 
 .service--section .item:not(:first-child) {
@@ -144,14 +153,14 @@ body {
 .service--section .item .label {
     flex-grow: 1;
     flex-basis: 0;
-    font-size: 24px;
+    font-size: 2rem;
     color: #749DE8;
 }
 
 .service--section .item .description {
     flex-grow: 2;
     flex-basis: 0;
-    font-size: 14px;
+    font-size: 1.17rem;
     color: rgba(0, 0, 0, 0.5);
 }
 
@@ -160,65 +169,69 @@ body {
 }
 
 .service--section .info2 {
-    font-size: 14px;
+    font-size: 1.17rem;
     color: rgba(0, 0, 0, 0.5);
 }
 
 .service--section .logo-container {
-    margin-top: 32px;
-    height: 50px;
+    margin-top: 2.67rem;
+    height: 4.17rem;
     display: flex;
     align-items: center;
 }
 
 .service--section svg:not(:first-child) {
-    margin-left: 32px;
+    margin-left: 2.67rem;
 }
 
 .advantage {
-    width: 1200px;
-    height: 460px;
+    width: 62.5%;
+    height: 38.33rem;
     margin: 0 auto;
     background-color: #5786DE;
     box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
     position: relative;
-    bottom: -78px;
+    bottom: -6.5rem;
     display: flex;
     flex-direction: column;
 }
 
 .ad1 {
-    width: 600px;
-    margin: 0px 83px;
-    margin-top: 30px;
+    width: 50rem;
+    margin: 0px 6.92rem;
+    margin-top: 2.5rem;
 }
 
 .ad1 h1 {
-    font-size: 36px;
+    font-size: 3rem;
     color: #FFFFFF;
     font-weight: 500;
 }
 
 .ad1 p {
-    font-size: 14px;
+    font-size: 1.17rem;
     color: rgba(255, 255, 255, 0.76);
 }
 
 .ad2 {
     display: flex;
     color: white;
-    margin: 30px 83px;
-    padding-top: 40px;
+    margin: 2.5rem 6.92rem;
+    padding-top: 3.33rem;
     border-top: 1px solid #ffffff5c;
 }
 
+.ad2-1 {
+    padding-right: 1rem;
+}
+
 .ad2-2 {
-    font-size: 24px;
+    font-size: 2rem;
 }
 
 .ad2-3 {
     color: #ffffffbd;
-    font-size: 14px;
+    font-size: 1.17rem;
 }
 
 .aboutus {
@@ -227,37 +240,35 @@ body {
 }
 
 .aboutus-wrapper {
-    width: 1200px;
+    width: 62.5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
     background-color: #041B3F;
-    padding: 60px 0 40px 0;
+    padding: 5rem 0 3.33rem 0;
 }
 
-.aboutus .left {
-    padding-left: 80px;
+.aboutus-wrapper .left {
+    width: 40%;
+    padding-left: 6.5rem;
 }
 
-.aboutus .left h3 {
+.aboutus-wrapper .left .h1 {
     color: rgba(255, 255, 255, 1);
-    font-size: 30px;
+    font-size: 1.8rem;
 }
 
-.aboutus .left button {
-    width: 144px;
-    height: 44px;
-    background: linear-gradient(174.6deg, rgba(87, 134, 222, 1), rgba(23, 65, 143, 1));
-    border-radius: 4px;
-    font-size: 16px;
-    color: rgba(255, 255, 255, 1);
-    line-height: 24px;
-    border: none;
+.aboutus-wrapper .right {
+    width: 60%;
 }
 
-.aboutus .left button:hover {
-    cursor: pointer;
+.aboutus-wrapper .n1 {
+    font-size: 1rem;
+}
+
+.aboutus-wrapper .n2 {
+    font-size: 1rem;
 }
 
 .footer {
@@ -266,7 +277,8 @@ body {
 }
 
 .footer-wrapper {
-    width: 1200px;
+    border-top: 1px solid #ffffff14;
+    width: 62.5%;
     background-color: #041B3F;
     display: flex;
     justify-content: center;
@@ -275,28 +287,32 @@ body {
     margin: 0 auto;
 }
 
+.n1,.n2 {
+    font-size: 1.2rem;
+}
+
 .y1 {
-    width: 1200px;
-    height: 20px;
-    border-top: 1px solid #ffffff14;
+    width: 62.5%;
+    height: 1.67rem;
+    
 }
 
 .y2 {
-    height: 20px;
-    width: 1200px;
+    height: 1.67rem;
+    width: 100rem;
 }
 
 .ts {
-    padding: 0 18px;
+    padding: 0 1.5rem;
 }
 
 .r1 {
     display: inline-block;
-    padding: 60px;
-    width: 350px;
-    font-size: 16px;
-    color: rgba(255, 255, 255, 0.85);
-    line-height: 22px;
+    padding: 4rem;
+    width: 50%;
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.83rem;
 }
 
 .r2 {
@@ -314,18 +330,19 @@ body {
 
 .sup {
     color: #5584DC;
-    font-size: 16px;
+    font-size: 1.33rem;
 }
 
 .num {
-    font-size: 50px;
+    font-size: 4rem;
     color: rgba(255, 255, 255, 0.29);
-    line-height: 54px;
-    padding-right: 30px;
+    line-height: 4.5rem;
+    padding-right: 0.5rem;
 }
 
 .x {
     display: inline-block;
+    font-size: 1.3rem;
 }
 
 .navbar--logo {

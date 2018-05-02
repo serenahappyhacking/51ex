@@ -208,7 +208,7 @@ class AboutUs extends React.Component {
             <div className="aboutus" id="aboutus">
                 <div className="aboutus-wrapper">
                     <div className="left">
-                        <h3>联系我们，洽谈合作</h3>
+                        <div className="h1">联系我们，洽谈合作</div>
                         <p className="sup">小宇：15600052862</p>
                     </div>
                     <div className="right">
@@ -251,12 +251,12 @@ class Footer extends React.Component {
             <div className="footer">
                 <div className="footer-wrapper">
                     <div className="y1"></div>
-                    <div>
+                    <div className="n1">
                         <span>商务合作：bd@51ex.com</span>
                         <span className="ts">技术支持：support@51ex.pro</span>
                         <span>公司地址：北京市望京SOHO</span>
                     </div>
-                    <div>2017-2018 51ex.pro 北京智链科技有限责任公司 版权所有</div>
+                    <div className="n2">2017-2018 51ex.pro 北京智链科技有限责任公司 版权所有</div>
                     <div className="y2"></div>
                 </div>
             </div>
