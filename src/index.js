@@ -3,6 +3,30 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 class Header extends React.Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            isOpen: false,
+            language: 'zh'
+        }
+    }
+
+    toggleMenu() {
+        this.setState((prevState) => {
+            return {
+                isOpen: !prevState.isOpen
+            };
+        });
+    }
+
+    selectLanguage(lan) {
+        this.setState({
+            language: lan,
+            isOpen: false
+        })
+    }
+
     render(){
         return (
             <div className="header">
@@ -32,14 +56,18 @@ class Header extends React.Component {
                     <a href="#service" className="navbar--menu">服务</a>
                     <a href="#aboutus" className="navbar--menu">关于我们</a>
                 </div>
-                <div className="hd-lan">
-				    <i className="selected icon-lan lan-zh"></i>
-                    <ul className="lan-list">
-                        <li data="zh">中文
-                            <i className="icon-lan lan-zh"></i>
+                <div className="lan-dropdown">
+				    <i
+                        onClick={this.toggleMenu.bind(this)}
+                        className={`lan-dropdown-toggle lan-icon lan-${this.state.language}`}></i>
+                    <ul className={`lan-dropdown-menu ${this.state.isOpen ? 'is-open' : ''}`}>
+                        <li onClick={() => this.selectLanguage('zh')}>
+                            中文
+                            <i className="lan-icon lan-zh"></i>
                         </li>
-                        <li data="en">English
-                            <i className="icon-lan lan-en"></i>
+                        <li onClick={() => this.selectLanguage('en')}>
+                            English
+                            <i className="lan-icon lan-en"></i>
                         </li>
                     </ul>
                 </div>
