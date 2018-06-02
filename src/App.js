@@ -5,6 +5,12 @@ import logo from './img/logo.svg';
 import logoApple from './img/logo-apple.svg';
 import logoAndroid from './img/logo-android.svg';
 import logoMS from './img/logo-ms.svg';
+import productFiatLogo from './img/fiat.png';
+import productSpotLogo from './img/spot.png';
+import productMarginLogo from './img/margin.png';
+import productForwardsLogo from './img/forwards.png';
+import productFundsLogo from './img/funds.png';
+import productWalletLogo from './img/wallet.png';
 
 class App extends Component {
   constructor(props) {
@@ -33,7 +39,7 @@ class App extends Component {
   render() {
     const lan = i18n[this.state.language];
     return (
-      <div className="app">
+      <div className={["app", this.state.language].join(' ')}>
         <div className="app-banner">
           <header className="app-header">
             <img src={logo} alt="logo" className="app-logo"/>
@@ -73,28 +79,34 @@ class App extends Component {
         <div className="app-product" id="product">
           <div className="row">
             <div className="column">
+              <img src={productFiatLogo} alt="fiat" className="logo" />
               <div className="title">{lan['fiat']}</div>
               <div className="desc">{lan['f1']}</div>
             </div> 
             <div className="column">
+              <img src={productSpotLogo} alt="spot" className="logo" />
               <div className="title">{lan['spot']}</div>
               <div className="desc">{lan['f2']}</div>
             </div> 
             <div className="column">
+              <img src={productMarginLogo} alt="margin" className="logo" />
               <div className="title">{lan['margin']}</div>
               <div className="desc">{lan['f3']}</div>
             </div> 
           </div> 
           <div className="row">
             <div className="column">
+              <img src={productForwardsLogo} alt="forwards" className="logo" />
               <div className="title">{lan['forwards']}</div>
               <div className="desc">{lan['f4']}</div>
             </div> 
             <div className="column">
+              <img src={productFundsLogo} alt="funds" className="logo" />
               <div className="title">{lan['funds']}</div>
               <div className="desc">{lan['f5']}</div>
             </div> 
             <div className="column">
+              <img src={productWalletLogo} alt="wallet" className="logo" />
               <div className="title">{lan['wallet']}</div>
               <div className="desc">{lan['f6']}</div>
             </div> 
@@ -116,7 +128,7 @@ class App extends Component {
               </div>
               <div className="item">
                 <div className="title">{lan['s']}</div>
-                <div className="desc">{lan['s1']}</div>
+                <div className="desc">{lan['s11']}</div>
               </div>
             </div>
           </div>
